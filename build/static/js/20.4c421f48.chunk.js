@@ -1,0 +1,2 @@
+(this.webpackJsonpundefined=this.webpackJsonpundefined||[]).push([[20],{576:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return s}));var i=t(0),a=t.n(i),c=t(55),r=t(137);function s(){return a.a.createElement(a.a.Fragment,null,a.a.createElement(c.e,{titleHeading:"Invoice",titleDescription:"This pages contains an example invoice design."}),a.a.createElement(r.a,null))}}}]);
+//# sourceMappingURL=20.4c421f48.chunk.js.map

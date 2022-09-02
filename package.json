@@ -1,0 +1,38 @@
+{
+  "name": "admin-dashboard",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd admin-dashboard && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"yarn client\"",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "corp": "^1.0.4",
+    "cors": "^2.8.5",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mssql": "^7.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tedious": "^14.0.0",
+    "web-vitals": "^2.1.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
